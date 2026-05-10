@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/nvidia-chat/:path*",
+      "destination": "https://integrate.api.nvidia.com/:path*"
+    },
+    {
+      "source": "/api/nvidia-image/:path*",
+      "destination": "https://ai.api.nvidia.com/:path*"
+    }
+  ]
+}
