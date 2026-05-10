@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-canvas: #09090b;
+  --color-node: #18181b;
+  --color-port: #3f3f46;
+  --color-link: #00e5ff;
+}
+
+body {
+  margin: 0;
+  overflow: hidden; 
+  background-color: var(--color-canvas);
+  color: white;
+  user-select: none;
+  font-family: 'Inter', sans-serif; /* Premium UI Font */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Monospace class for tags and code */
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
